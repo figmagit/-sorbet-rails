@@ -123,7 +123,9 @@ GEM
       net-protocol
       timeout
     nio4r (2.5.8)
-    nokogiri (1.13.6-x86_64-darwin)
+    nokogiri (1.13.9-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.9-x86_64-linux)
       racc (~> 1.4)
     parlour (8.0.0)
       commander (~> 4.5)
@@ -178,6 +180,7 @@ GEM
       sorbet-runtime (>= 0.4.4704)
     sorbet-runtime (0.5.10139)
     sorbet-static (0.5.10139-universal-darwin-20)
+    sorbet-static (0.5.10139-x86_64-linux)
     sqlite3 (1.4.4)
     strscan (3.0.3)
     thor (1.2.1)
@@ -196,6 +199,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   debug
